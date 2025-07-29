@@ -59,3 +59,20 @@ footer {
     border-radius: 20px;
     margin-right: 20px;
 }
+/* ALBUM RECENTI */
+.album-recenti {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.row-album {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+.col-album {
+    /* debug */
+    background-color: chocolate;
+    width: 176px;
+    height: 230px;
+    border: dashed;
+}
