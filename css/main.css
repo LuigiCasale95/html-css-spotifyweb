@@ -8,31 +8,25 @@
 }
 
 /* MAIN */
-.box-main {
-    /* debug */
-    width: 100%;
-    min-height: 500px;
-    background-color: blueviolet;
-}
-.col-main {
+.wrapper {
+    height: calc(100vh - 150px);
+    background-color: aqua;
     display: flex;
-}
-.box-sx {
-    height: 990px;
-    width: 250px;
-    background-color: black;
-}
-.box-dx {
-    width: 100vw ;
-    overflow-y: auto ;
-    /* DEBUG */
-    min-height: 75vh;
-    background-color: #141922;
 
 }
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+
+}
+main {
+    width: calc(100vw - 200px);
+    height: 100%;
+    background-color: grey;
+}
 /* FOOTER */
-.barra-footer {
-    width: 100%;
+footer {
     /* DEbug */
     height: 150px;
     background-color: blue;
