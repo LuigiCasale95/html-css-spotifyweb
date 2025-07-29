@@ -1,9 +1,39 @@
+/* GENERALI */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* DEBUG */
+    color: white;
+}
+
+/* MAIN */
+.box-main {
+    /* debug */
+    width: 100%;
+    min-height: 500px;
+    background-color: blueviolet;
+}
+.col-main {
+    display: flex;
+}
+.box-sx {
+    height: 990px;
+    width: 250px;
+    background-color: black;
+}
+.box-dx {
+    width: 100vw ;
+    overflow-y: auto ;
+    /* DEBUG */
+    min-height: 75vh;
+    background-color: #141922;
+
 }
 /* FOOTER */
 .barra-footer {
-    
+    width: 100%;
+    /* DEbug */
+    height: 150px;
+    background-color: blue;
 }
