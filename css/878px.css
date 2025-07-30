@@ -1,6 +1,7 @@
 @media screen and (max-width: 878px) {
     .col-album {
-/*      width: calc((100% / 4) - (75px / 4));
- */    }
+      width: calc((100% / 4) - (60px / 4));
+   }
+
 
 }
