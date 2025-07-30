@@ -34,6 +34,9 @@ a {
 .logo-small {
     display: none;
 }
+.sidebar h4 {
+    margin-bottom: 30px;
+}
 .col-sidebar {
     width: 100%;
     /* Debug */
@@ -64,11 +67,17 @@ a {
     font-size: 20px;
     margin-top: 15px;
     margin-left: 10px;
+
 }
 .fa-plus {
     color: black;
     background-color: grey;
-    padding: 20px;
+    line-height: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
 }
 /* MAIN */
 main {
