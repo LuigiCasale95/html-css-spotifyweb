@@ -31,6 +31,9 @@ a {
 #logo {
     padding: 15px;
 }
+.logo-small {
+    display: none;
+}
 .col-sidebar {
     width: 100%;
     /* Debug */
@@ -103,6 +106,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* ALBUM */

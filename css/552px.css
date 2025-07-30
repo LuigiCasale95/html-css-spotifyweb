@@ -1,3 +1,34 @@
 @media screen and (max-width: 552px) {
-    
+    .sidebar {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+    #logo {
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    main {
+        width: calc(100vw - 50px);
+    }
+    .sidebar span, hr {
+        display: none;
+    }
+    .playlist {
+        display: none;
+    }
+    .logo-small {
+    display: block;
+    width: 40px;
+    }
+    .logo-big {
+        display: none;
+    }
+    .menù {
+        position: absolute;
+        top: 60px;
+    }
 }
