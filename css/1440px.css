@@ -13,24 +13,42 @@ a {
     color: grey;
 }
 
-/* MAIN */
 .wrapper {
-    height: calc(100vh - 200px);
-    background-color: aqua;
+    height: calc(100vh - 90px);
+    background-color: rgb(0, 0, 0);
     display: flex;
-
+    
 }
+/* SIDEBAR ASIDE */
 .sidebar {
     color: white;
     width: 200px;
-    height: 100%;
+    height: calc(100% - 90px);
     background-color: black;
-
+    
 }
+#logo {
+    padding: 15px;
+}
+.col-sidebar {
+    width: 100%;
+    height: 15%;
+    /* Debug */
+    background-color: rgb(10, 51, 51);
+    border: dashed;
+}
+.col-sidebar.playlist {
+    width: 100%;
+    height: 70%;
+
+    background-color: aqua;
+    border: dashed;
+}
+/* MAIN */
 main {
     color: white;
     width: calc(100vw - 200px);
-    height: calc(100vh - 200px);
+    height: calc(100vh - 90px);
     overflow-y: auto;
     background-color: #141922;
 }
@@ -91,18 +109,14 @@ main {
 
 /* FOOTER */
 footer {
-    /* DEbug */
-    height: 200px;
     background-color: blue;
-}
-.barra-comandi {
     height: 90px;
     background-color: cornflowerblue;
     display: flex;
 }
 .comandi {
     width: calc(100% / 3);
-    /* debug */
+
     height: 100%;
     border: dashed;
 }
