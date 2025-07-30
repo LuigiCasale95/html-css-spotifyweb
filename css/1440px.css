@@ -42,6 +42,8 @@ main {
     display: flex;
     justify-content: end;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .bt-upgrade {
     border: 5 solid white;
