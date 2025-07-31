@@ -145,6 +145,7 @@ main {
 .col-album {
     width: calc((100% / 6) - (115px / 6));
     align-items: stretch;
+    position: relative;
 }
 .img-album {
     width: 100%;
@@ -159,6 +160,22 @@ main {
     margin-top: 3px;
     color: grey;
 }
+.play {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    opacity: 0;
+}
+ .box-album:hover .play {
+    opacity: 1;
+    color: white;
+}
+.box-album:hover img {
+    filter: grayscale(50%);
+}
+
 /* FOOTER */
 footer {
     background-color: #282828;
