@@ -147,7 +147,9 @@ main {
 .col-album {
     width: calc((100% / 6) - (115px / 6));
     align-items: stretch;
-    position: relative;
+}
+.img-wrapper {
+       position: relative;
 }
 .img-album {
     width: 100%;
@@ -166,9 +168,10 @@ main {
     color: white;
     font-size: 60px;
     position: absolute;
-    top: 50px;
-    left: 60px;
+    top: 50%;
+    left: 50%;
     opacity: 0;
+    transform: translate(-50%, -50%);
 }
  .box-album:hover .play {
     opacity: 1;
@@ -221,23 +224,6 @@ footer {
     display: flex;
     position: relative;
 }
-/* .center hr {
-    margin-top: 16px;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 400px;
-    border-width: 2px;
-} */
-/* .center .hr-green {
-    width: 150px;
-    border-width: 2px;
-    border-color: green;
-    position: absolute;
-    display: none;
-} */
-/* .hr-music .hr-green:hover  {
-    display: block;
-} */
 .comandi-musica > span {
    margin-left: 5px;
    margin-right: 5px;
@@ -250,13 +236,24 @@ footer {
 .linea-musica {
     height: 3px;
     width: 400px;
-    background-color: rgb(255, 255, 255);
+    background-color: grey;
     margin-top: 6px;
     margin-left: 5px;
     margin-right: 5px;
+}
+.linea-green {
+    height: 3px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    left: 29px;
+}
+.linea-musica:hover .linea-green {
+    display: block;
 }
 .volume {
     background-color: white;
     height: 2px;
     width: 90px;
-   }
+}
