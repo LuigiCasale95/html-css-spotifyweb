@@ -251,8 +251,8 @@ footer {
     top: 6px;
     left: 29px;
 }
-.linea-green:hover   {
-    color: green;
+.hr-music a .linea-green:hover   {
+    border-color: green;
 }
 .volume {
     background-color: white;
