@@ -82,6 +82,8 @@ a {
 }
 .side-box {
     padding-bottom: 5px;
+}.sidebar a:hover {
+    color: white;
 }
 /* MAIN */
 main {
@@ -107,9 +109,12 @@ main {
     top: 0;
 }
 .bt-upgrade {
-    border: 5 solid white;
     border-radius: 20px;
     margin-right: 20px;
+}
+.bt-upgrade a:hover {
+    color: white;
+        font-size: 18px;
 }
 
 /* LISTA CENTRALE MAIN */
@@ -120,6 +125,10 @@ main {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+.list-top-main a:hover {
+    color: white;
+
 }
 
 /* ALBUM */
@@ -206,4 +215,5 @@ footer {
 }
 .hr-music span {
     font-size: 12px;
+    
 }
