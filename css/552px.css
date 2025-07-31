@@ -40,5 +40,8 @@
    .hr-music {
    /*  width: 100px; */
    }
+    .fa-play:hover {
+      font-size: 20px;
+    }
 
 }

@@ -259,3 +259,6 @@ footer {
     height: 2px;
     width: 90px;
 }
+.fa-play:hover {
+    font-size: 28px;
+} 
