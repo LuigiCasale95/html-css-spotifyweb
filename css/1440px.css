@@ -252,7 +252,7 @@ footer {
     left: 29px;
 }
 .hr-music a .linea-green:hover   {
-    border-color: green;
+    background-color: green;
 }
 .volume {
     background-color: white;
@@ -264,4 +264,18 @@ footer {
 } 
 .left i:hover {
     color: white;
+}
+.cerchio-volume {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 139px;
+    display: none;
+}
+.linea-green:hover .cerchio-volume {
+    display: block;
+
 }
