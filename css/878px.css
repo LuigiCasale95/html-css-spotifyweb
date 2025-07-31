@@ -3,7 +3,7 @@
       width: calc((100% / 4) - (75px / 4));
    }
    .hr-music {
-      width: 300px;
+      /* width: 300px; */
    }
    .left img {
       height: 45%;
