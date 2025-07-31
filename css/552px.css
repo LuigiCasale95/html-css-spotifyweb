@@ -34,4 +34,15 @@
     .side-box i {
         font-size: 24px;
     }
+    .comandi-musica > span {
+      font-size: 18px;
+   }
+   .hr-music {
+    width: 100px;
+   }
+   .play {
+      top: 70px;
+      left: 70px;
+   }
+
 }

@@ -40,9 +40,6 @@ a {
 }
 .col-sidebar {
     width: 100%;
-    /* Debug */
-/*     background-color: rgb(10, 51, 51);
-    border: dashed; */
 }
 .col-sidebar.playlist {
     width: 100%;
@@ -50,9 +47,6 @@ a {
     padding-top: 10px;
     overflow-y: auto;
     flex-grow: 1;
-
-/*     background-color: aqua;
-    border: dashed; */
 }
 .playlist ul li {
     margin-top: 20px;
@@ -69,6 +63,9 @@ a {
     margin-top: 15px;
     margin-left: 10px;
 
+}
+.menù ul li:first-child {
+    border-left: 3px solid greenyellow;
 }
 .fa-plus {
     color: black;
@@ -114,7 +111,7 @@ main {
 }
 .bt-upgrade a:hover {
     color: white;
-        font-size: 18px;
+    font-size: 18px;
 }
 
 /* LISTA CENTRALE MAIN */
@@ -128,9 +125,14 @@ main {
 }
 .list-top-main a:hover {
     color: white;
-
 }
 
+.list-top-main hr {
+    width: 40px;
+    border-color: greenyellow;
+    margin-left: 30%;
+
+}
 /* ALBUM */
 .album-box {
     margin-top: 20px;
@@ -164,8 +166,8 @@ main {
     color: white;
     font-size: 60px;
     position: absolute;
-    top: 35px;
-    left: 40px;
+    top: 50px;
+    left: 60px;
     opacity: 0;
 }
  .box-album:hover .play {
@@ -183,10 +185,10 @@ footer {
     display: flex;
 }
 .comandi {
+    width: calc(100% / 3);
     display: flex;
     align-items: center;
     color: grey;
-   /*  height: 100%; */
 }
 .player-left {
     height: 80%;
