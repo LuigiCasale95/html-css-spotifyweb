@@ -262,3 +262,6 @@ footer {
 .fa-play:hover {
     font-size: 28px;
 } 
+.left i:hover {
+    color: white;
+}
