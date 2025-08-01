@@ -128,12 +128,11 @@ main {
 .list-top-main a:hover {
     color: white;
 }
-
-.list-top-main hr {
-    width: 40px;
-    border-color: greenyellow;
-    margin-left: 30%;
-
+.hr-list {
+    width: 30%;
+    height: 2px;
+    background-color: greenyellow;
+    margin-left: 40%;
 }
 /* ALBUM */
 .album-box {
@@ -278,4 +277,8 @@ footer {
 }
 .linea-green:hover .cerchio-volume {
     display: block;
+}
+.comandi-musica {
+    width: 100%;
+    text-align: center;
 }
